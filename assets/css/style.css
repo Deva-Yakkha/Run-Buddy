@@ -1,0 +1,52 @@
+/* header h1 */
+
+header {
+    background-color: aqua;
+}
+
+header h1 {
+    /* background-color: aqua; */
+    font-weight: bold;
+    font-size: 36px;
+    color: #d8bd10;
+    margin: 0px;
+    padding: 20px;
+    display: inline;
+}
+
+/* header a */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* Header nav */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* header nav inline */
+header nav ul li {
+    display: inline;
+}
+
+/* Nav a */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section h2 {
+    color: aqua;
+}
+ 
+footer h2 {
+    color: aqua;
+}

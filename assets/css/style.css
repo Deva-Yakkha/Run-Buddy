@@ -2,13 +2,14 @@
 
 header {
     background-color: aqua;
+    padding: 20px;
 }
 
+/* background-color: aqua; */
 header h1 {
-    /* background-color: aqua; */
     font-weight: bold;
     font-size: 36px;
-    color: #d8bd10;
+    color: #0a6783;
     margin: 0px;
     padding: 20px;
     display: inline;
@@ -47,6 +48,35 @@ section h2 {
     color: aqua;
 }
  
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* foot h2 selector */
 footer h2 {
-    color: aqua;
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* footer div selector*/
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* footer a selector */
+footer a {
+    color: #024e76;
+}
+
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
